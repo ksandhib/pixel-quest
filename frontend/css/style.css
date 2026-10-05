@@ -1,0 +1,6 @@
+html,body{margin:0;height:100%;background:#0b0b1a;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;touch-action:none}
+#gameCanvas{width:min(100vw,177.78vh);aspect-ratio:16/9;image-rendering:pixelated;image-rendering:crisp-edges;background:#000;outline:none;max-width:none}
+#touch{display:none;width:100%;justify-content:space-between;align-items:center;padding:6px 14px;box-sizing:border-box;user-select:none}
+#touch.on{display:flex}
+#touch button{width:56px;height:48px;margin:2px;font:bold 16px monospace;border:3px solid #fff;background:#333a;color:#fff;border-radius:8px;touch-action:none}
+.pad{text-align:center}.pad div{display:flex}.act{display:flex}.act button{width:72px;height:60px}
